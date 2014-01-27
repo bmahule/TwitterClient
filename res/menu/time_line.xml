@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item
+        android:id="@+id/refresh"
+        android:title="@string/action_settings"
+        android:icon="@drawable/refresh"
+        android:onClick="onClickRefresh"
+        android:showAsAction="ifRoom"/>
+         
+     <item
+        android:id="@+id/compose"
+        android:title="@string/action_settings"
+        android:icon="@drawable/compose"
+        android:onClick="onClickCompose"
+        android:showAsAction="ifRoom"/>
+</menu>
